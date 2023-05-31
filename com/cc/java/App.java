@@ -12,18 +12,16 @@ public class App {
 			str = "Irgend eine Zeichenkette";
 			System.out.println("Stringlaenge :" + str.length());
 			
-			ch = str.charAt(0);
+			ch = str.charAt(200);
 			System.out.println("Character :" + ch);	
-		} 
+		}
+
 		catch (StringIndexOutOfBoundsException e) {
 			// Fehlerbehandlung ...
 			System.out.println("Index Fehler, bitte Eingabe pruefen!");		
 		}
 		catch (Exception e) {
 			// Weitere Fehler-Routinen ....
-		}
-		
-		
+		}	
 	}
-
 }
